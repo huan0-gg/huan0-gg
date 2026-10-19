@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="240" height="56" viewBox="0 0 240 56" fill="none" role="img" aria-label="email me">
+  <defs>
+    <linearGradient id="btnEdge" x1="0" y1="0" x2="240" y2="56" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#22d3ee"/>
+      <stop offset="0.55" stop-color="#38bdf8" stop-opacity="0.55"/>
+      <stop offset="1" stop-color="#a78bfa"/>
+    </linearGradient>
+    <linearGradient id="btnFill" x1="0" y1="0" x2="0" y2="56" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#0b1a2b"/>
+      <stop offset="1" stop-color="#070d16"/>
+    </linearGradient>
+    <filter id="btnGlow" x="-30%" y="-40%" width="160%" height="180%">
+      <feGaussianBlur stdDeviation="6" result="b"/>
+      <feMerge>
+        <feMergeNode in="b"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <style>
+      .mono { font-family: ui-monospace, 'SFMono-Regular', 'Cascadia Mono', Consolas, 'Liberation Mono', monospace; }
+    </style>
+  </defs>
+  <rect x="1" y="1" width="238" height="54" rx="27" fill="url(#btnFill)" stroke="url(#btnEdge)" stroke-width="1.5"/>
+  <g filter="url(#btnGlow)">
+    <rect x="20" y="23.5" width="12" height="9" rx="1.6" fill="none" stroke="#22d3ee" stroke-width="1.4"/>
+    <path d="M20.6 24.4 26 29.2l5.4-4.8" fill="none" stroke="#22d3ee" stroke-width="1.4" stroke-linecap="round"/>
+  </g>
+  <text class="mono" x="46" y="33.5" font-size="13" letter-spacing="3.2" fill="#dbe7f5">EMAIL ME</text>
+  <path d="M198 28h11m-4.4-4.4L209 28l-4.4 4.4" stroke="#7dd3fc" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
