@@ -12,7 +12,7 @@
 
 ## ▍ About
 
-I'm a student, and I'm early. I picked machine learning as the thing I want to understand deeply, and I'm working through it from the bottom — Python first, then the math, then the models.
+I'm 顾欢 (Gu Huan) — a student, and I'm early. I picked machine learning as the thing I want to understand deeply, and I'm working through it from the bottom — Python first, then the math, then the models.
 
 I learn by building small things that mostly break, reading the traceback, and fixing them. Everything here is a work in progress, including me.
 
