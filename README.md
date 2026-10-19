@@ -50,6 +50,16 @@ What pulls me in: how far a few lines of math can go, and why some models genera
 
 > 这些是我正在学的工具，不是我已经精通的。
 
+## ▍ Featured · 项目
+
+<div align="center">
+  <a href="https://huan0-gg.github.io/handfeel/">
+    <img src="assets/featured-handfeel.svg" alt="手感 Handfeel — a stress-relief toy that gets dull the longer you play" width="100%">
+  </a>
+</div>
+
+<sub>解压产品不该靠制造焦虑来留住人。所以这个游戏玩得越久手感越钝——「防沉迷」长在玩法里，不在弹窗里。 · [源码](https://github.com/huan0-gg/handfeel) · [在线试玩](https://huan0-gg.github.io/handfeel/)</sub>
+
 ## ▍ Connect · 联系
 
 The fastest way to reach me is email. I read everything, and I reply faster than I commit.

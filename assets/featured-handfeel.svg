@@ -1,0 +1,103 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="880" height="208" viewBox="0 0 880 208" fill="none" role="img" aria-label="Featured project: 手感 Handfeel — a stress-relief toy that gets dull the longer you play">
+  <defs>
+    <linearGradient id="cardBg" x1="0" y1="0" x2="880" y2="208" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#0a1620"/>
+      <stop offset="0.55" stop-color="#0a1a22"/>
+      <stop offset="1" stop-color="#0b1d28"/>
+    </linearGradient>
+    <linearGradient id="cardEdge" x1="0" y1="0" x2="880" y2="208" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#22d3ee" stop-opacity="0.4"/>
+      <stop offset="0.5" stop-color="#38bdf8" stop-opacity="0.12"/>
+      <stop offset="1" stop-color="#a78bfa" stop-opacity="0.38"/>
+    </linearGradient>
+    <radialGradient id="bub" cx="0.34" cy="0.28" r="0.78">
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset="0.13" stop-color="#dcfdf6"/>
+      <stop offset="0.58" stop-color="#2b8fa3"/>
+      <stop offset="1" stop-color="#0e4250"/>
+    </radialGradient>
+    <radialGradient id="bubDim" cx="0.34" cy="0.28" r="0.78">
+      <stop offset="0" stop-color="#e8f4f4"/>
+      <stop offset="0.13" stop-color="#a8c6c9"/>
+      <stop offset="0.58" stop-color="#3c6470"/>
+      <stop offset="1" stop-color="#16303a"/>
+    </radialGradient>
+
+    <g id="bubCell">
+      <circle r="15" fill="url(#bub)"/>
+      <ellipse cx="-5.2" cy="-6.4" rx="4.6" ry="3.1" fill="#ffffff" fill-opacity="0.55" transform="rotate(-18 -5.2 -6.4)"/>
+      <circle r="15" fill="none" stroke="#ffffff" stroke-opacity="0.16"/>
+    </g>
+    <g id="bubCellDim">
+      <circle r="15" fill="url(#bubDim)" fill-opacity="0.45"/>
+    </g>
+
+    <style>
+      .mono { font-family: ui-monospace, 'SFMono-Regular', 'Cascadia Mono', Consolas, 'Liberation Mono', monospace; }
+      .sans { font-family: 'Segoe UI', -apple-system, BlinkMacSystemFont, "PingFang SC", "Microsoft YaHei", Arial, sans-serif; }
+      .tag  { fill: rgba(125,211,252,0.05); stroke: rgba(125,211,252,0.35); stroke-width: 1; }
+      .tagT { fill: #9fb6c8; font-size: 9.5px; letter-spacing: 1.5px; }
+    </style>
+  </defs>
+
+  <rect x="0.75" y="0.75" width="878.5" height="206.5" rx="18" fill="url(#cardBg)" stroke="url(#cardEdge)" stroke-width="1.5"/>
+
+  <!-- left: copy -->
+  <text class="mono" x="40" y="50" font-size="10.5" letter-spacing="3.4" fill="#5eead4" fill-opacity="0.85">// FEATURED</text>
+
+  <text class="sans" x="38" y="97" font-size="28" font-weight="700" fill="#eaf6ff">手感</text>
+  <text class="sans" x="102" y="97" font-size="20" font-weight="500" fill="#8fa6b8">· Handfeel</text>
+
+  <text class="sans" x="39" y="126" font-size="12.5" fill="#8ea4b8">A stress-relief toy that gets dull the longer you play.</text>
+  <text class="sans" x="39" y="146" font-size="11.5" fill="#698095">玩久了会变闷的解压小游戏 —— 防沉迷长在玩法里</text>
+
+  <g class="mono">
+    <rect class="tag" x="39" y="165" width="66" height="25" rx="12.5"/>
+    <text class="tagT" x="51" y="181">CANVAS</text>
+
+    <rect class="tag" x="113" y="165" width="82" height="25" rx="12.5"/>
+    <text class="tagT" x="125" y="181">WEB AUDIO</text>
+
+    <rect class="tag" x="203" y="165" width="82" height="25" rx="12.5"/>
+    <text class="tagT" x="215" y="181">ZERO DEPS</text>
+
+    <rect class="tag" x="293" y="165" width="46" height="25" rx="12.5"/>
+    <text class="tagT" x="305" y="181">MIT</text>
+  </g>
+
+  <!-- right: bubble field -->
+  <g>
+    <use href="#bubCell" x="600" y="46"/>
+    <use href="#bubCell" x="640" y="46"/>
+    <use href="#bubCell" x="680" y="46"/>
+    <use href="#bubCell" x="720" y="46"/>
+    <use href="#bubCell" x="760" y="46"/>
+    <use href="#bubCell" x="800" y="46"/>
+
+    <use href="#bubCell" x="600" y="86"/>
+    <use href="#bubCell" x="640" y="86"/>
+    <use href="#bubCellDim" x="680" y="86"/>
+    <use href="#bubCell" x="720" y="86"/>
+    <use href="#bubCell" x="760" y="86"/>
+    <use href="#bubCell" x="800" y="86"/>
+
+    <use href="#bubCell" x="600" y="126"/>
+    <use href="#bubCell" x="640" y="126"/>
+    <use href="#bubCell" x="680" y="126"/>
+    <use href="#bubCell" x="720" y="126"/>
+    <use href="#bubCellDim" x="760" y="126"/>
+    <use href="#bubCell" x="800" y="126"/>
+
+    <use href="#bubCell" x="600" y="166"/>
+    <use href="#bubCell" x="640" y="166"/>
+    <use href="#bubCell" x="680" y="166"/>
+    <use href="#bubCell" x="720" y="166"/>
+    <use href="#bubCell" x="760" y="166"/>
+    <use href="#bubCell" x="800" y="166"/>
+  </g>
+
+  <circle cx="680" cy="86" r="21" fill="none" stroke="#9ff0e6" stroke-opacity="0.5" stroke-width="1.2"/>
+  <circle cx="760" cy="126" r="21" fill="none" stroke="#9ff0e6" stroke-opacity="0.28" stroke-width="1"/>
+
+  <text class="mono" x="840" y="190" font-size="9.5" letter-spacing="1.8" fill="#3f5266" text-anchor="end">PLAY ↗</text>
+</svg>
